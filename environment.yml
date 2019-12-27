@@ -1,0 +1,36 @@
+name: env_rocaseg
+channels:
+- pytorch
+- simpleitk
+- defaults
+- conda-forge
+dependencies:
+- python=3.7.3
+- pip=19.1.1
+- joblib
+- cython
+- numpy
+- scipy
+- pandas=0.23.4
+- scikit-image=0.15.0
+- pywavelets
+- scikit-learn
+- matplotlib
+- seaborn
+- opencv
+- jupyter
+- xlrd
+- pytorch=1.2.0
+- torchvision=0.4.0
+# - cudatoolkit=10.0
+- simpleitk
+- pip:
+  - pydicom==1.2.2
+  - dicom2nifti==2.1.5
+  - tifffile
+  - sas7bdat
+  - nibabel
+  - tqdm
+  - click
+  - tensorboard>=1.14.0
+  - tensorflow>=1.14.0
