@@ -2,6 +2,10 @@
 
 Source code for Panfilov et al. "Improving Robustness of Deep Learning Based Knee MRI Segmentation: Mixup and Adversarial Domain Adaptation", https://arxiv.org/abs/1908.04126v3.
 
+<p align="center">
+<img src="github_image.png" width="700" alt="Overview"/> 
+</p>
+
 ### Important!
 
 The camera-ready version contained a bug in Dice score computation for tibial cartilage on Dataset C. Please, refer to the arXiv version for the corrected values - https://arxiv.org/abs/1908.04126v3.
