@@ -189,6 +189,7 @@ do
     --restore_weights \
     --output_channels 5 \
     --dataset oai_imo \
+    --subset test \
     --mask_mode all_unitibial_unimeniscus \
     --batch_size 64 \
     --fold_num 5 \
@@ -211,6 +212,7 @@ do
     --restore_weights \
     --output_channels 5 \
     --dataset oai_imo \
+    --subset test \
     --mask_mode all_unitibial_unimeniscus \
     --batch_size 64 \
     --fold_num 5 \
@@ -233,6 +235,7 @@ do
     --restore_weights \
     --output_channels 5 \
     --dataset okoa \
+    --subset all \
     --mask_mode background_femoral_unitibial \
     --batch_size 64 \
     --fold_num 5 \
@@ -255,6 +258,7 @@ do
     --restore_weights \
     --output_channels 5 \
     --dataset okoa \
+    --subset all \
     --mask_mode background_femoral_unitibial \
     --batch_size 64 \
     --fold_num 5 \
